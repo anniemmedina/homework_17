@@ -1,36 +1,142 @@
-<html>
-    <head>
-        <title>Portfolio</title>
-        <link rel="stylesheet" href="css/index.css">
-        <style>
-            .container {
-                display: grid;
-                grid-template-columns: 45px auto auto;
-                grid-template-rows: 25px 400px 200px 130px 90px 50px;
-                grid-gap: 3px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>10</div>
-            <div>11</div>
-            <div>12</div>
-            <div>13</div>
-            <div>14</div>
-            <div>15</div>
-            <div>16</div>
-            <div>17</div>
-            <div>18</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Hi, I'm Annie!</title>
+  </head>
+
+  <body>
+    <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">A. M. Medina</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Contact</a>
+    </li>
+  </ul>
+  </div>
+  </nav>
+
+  <!-- JumboTron -->
+<div class="jumbotron">
+  <h1 class="display-4">Hello, I'm Annie!</h1>
+  <p class="lead">UX/UI Designer</p>
+</div>
+
+ <!-- Card Container -->
+<div class="container-fluid">
+  <div class="row">
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+      <div class="card">
+        <img src="images/samhsa.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Government Agency</h5>
+          <p class="card-text">Mental Health resources are now more accessible than ever thanks to the new user friendly interface for Government Agency SAMHSA.</p>
+          <a href="#" class="btn btn-primary">View Project</a>
         </div>
-    </body>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+      <div class="card">
+        <img src="images/grow.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Grow</h5>
+          <p class="card-text">This delightful plant care app helps users track thier plants health with care reminders, community feedback and gamefied rewards.</p>
+          <a href="#" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+      <div class="card">
+          <img src="images/non-profit.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Non-Profit Redesign</h5>
+          <p class="card-text">A dynamic web-redesign helps to boost local non-profit's online voice on women's health.</p>
+          <a href="#" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div><!-- Close row -->
+</div><!-- Close container fluid -->
+
+<!-- About Me -->
+<div class="container">
+  <div class="row">
+     <div class="col-sm-8"><img src="images/me.png">
+    </div>
+    <div class="col-sm-4">
+    <h1>About Me.</h1>
+    <p>A California native; Annie was forged by the tempestuous  waters of an East Coast art education at RISD. She has an absurd love of: tiny “Kauai” things, thought-provoking books & her Ewok-dog named Honeybean. What was being a printmaker at Gemini G.E.L. like? Maybe she will tell you someday. For now, she is giving her standard  110%, to the tantalizing ether of UCI’s UX/UI bootcamp & loving it.</p>
+  </div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+  <div class="col-sm"><ul>      
+    <li>Adobe Suite, MS, Visual Studio, HTML, CSS, InVision
+    </li></ul></div>
+  <div class="col-sm"><ul><li>Printmaking, Illustration, Creative Writing, Bookbinding 
+  </li></ul></div>
+  <div class="col-sm"><ul><li>Adult Instruction; Computer Skills, Art, Design & Mental Health</li></ul></div>
+</div>
+</div>
+
+<!-- Contact Me -->
+<div class="container-fluid signUp">
+  <div class="row">
+    <form>
+      <h2>anniemmedina@gmail.com</h2>
+      <div class="form-group">
+      <button type="submit" class="btn btn-primary">Contact Me</button>
+      </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="containerF">
+    <a href="#" class="in">
+      <img src="images/in.png">
+  </a>
+  <a href="#" class="db"> 
+      <img src="images/db.png">
+  </a>
+  <a href="#" class="be">
+      <img src="images/be.png">
+  </a>
+  <a href="#" class="inst">
+      <img src="images/inst.png">
+  </a>
+</div>
+</footer>
+
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>
