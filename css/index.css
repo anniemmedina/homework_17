@@ -3,6 +3,22 @@
   margin-left: auto;
   margin-right: 0 !important;
 }
+.bg-light {
+  background-color: white !important;
+}
+
+/* Jumbotron styles */
+.jumbotron {
+background-color: #BFD7D9;
+height: 710px;
+}
+.col-sm-7 {
+  padding: 32px;
+   }
+   .col-sm-5 img {
+    height: 300px;
+    align-content: flex-start;
+   }
 
 /* Card styles */
 .cardContainer {
@@ -13,20 +29,25 @@
 }
 
 /* About Me styles */
- .col-sm-8 img {
-  height: 350px;
+.container {
+margin: 32px
+} 
+.col-sm-8 {
+padding: 32px;
  }
  .col-sm-4 img {
-  height: 350px;
-  align-content: flex-start;
+  height: 400px;
  }
 
 /* Contact Me styles */
 .signUp form {
   margin: 35px auto;
-  background-color: #f2f2f2;
+  background-color: #BFD7D9;
   padding: 25px;
   border-radius: 7px;
+}
+.row h2 {
+  font-size: 28px;
 }
 
 /* Footer styles */
@@ -42,9 +63,12 @@ footer {
   justify-content: space-evenly;
   align-content: flex-start;
   width: 100%;
- margin-top: 50px;
+  margin-top: 50px;
+}
+.footer img{
+height: 23px;
 }
 .footer a{
-margin: 5px;
-padding-left: 40px;
+margin: 1px;
+padding-left: 35px;
 } 
