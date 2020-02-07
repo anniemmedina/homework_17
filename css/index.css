@@ -13,11 +13,14 @@ background-color: #BFD7D9;
 height: 710px;
 }
 .col-sm-7 {
-  padding: 32px;
+  padding-left: 70px;
+  padding-right: 70px;
    }
    .col-sm-5 img {
     height: 300px;
     align-content: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
    }
 
 /* Card styles */
@@ -33,7 +36,7 @@ height: 710px;
 margin: 32px
 } 
 .col-sm-8 {
-padding: 32px;
+padding: 40px;
  }
  .col-sm-4 img {
   height: 400px;
